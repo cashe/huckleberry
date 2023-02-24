@@ -9,4 +9,43 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.intro-chunk {
+  margin-top: 48px;
+  padding: 48px 24px;
+  max-width: 380px;
+}
+.max-width-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  background-color: hsla(0, 0%, 40%, 1);
+  border-top: solid 8px hsla(0, 0%, 60%, 1);
+  padding-bottom: 58px;
+}
+
+h1 {
+  margin-bottom: 48px;
+}
+
+h2 {
+  background-color: hsl(45deg, 100%, 50%);
+  width: fit-content;
+  padding: 16px 32px;
+  margin-left: -32px;
+  margin-block-start: 0px;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.card {
+  background-color: white;
+  border-bottom: 8px solid  hsla(0, 0%, 60%, 1);
+  padding: 8px 24px;
+  margin-top: 48px;
+}
